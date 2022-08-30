@@ -1,7 +1,7 @@
 /* body */
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #e7ebf7;
+    background-color: #ebedf6;
 }
 
 /* text */
@@ -161,7 +161,7 @@ a.skip:focus{
     }
 
     #name{
-        margin: 7.5px 0;
+        margin: 5px 0;
     }
 
     #nav{
