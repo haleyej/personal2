@@ -148,11 +148,11 @@ a.skip:focus{
 
 .photo-gallery{
     grid-template-rows: 1fr 1fr;
-    margin: 20px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
 }
 
 .arcgis-gallery{
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 
 @media screen and (min-width: 850px){
