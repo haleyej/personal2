@@ -17,6 +17,11 @@ p{
     margin-bottom: 12.5px;
 }
 
+.title-line{
+    margin-bottom: 0px;
+    font-size: 0.85em
+}
+
 a, a:visited{
     color: #3c5e52;
 }
@@ -135,11 +140,19 @@ a.skip:focus{
 }
 
 /* photogallery */
-.photo-gallery{
+.photo-gallery, .arcgis-gallery{
     display: grid;
     grid-gap: 2.5px;
     grid-template-columns: 1fr 1fr;
+}
+
+.photo-gallery{
     grid-template-rows: 1fr 1fr;
+    margin: 20px 0px 0px 0px;
+}
+
+.arcgis-gallery{
+    margin: 20px 0px;
 }
 
 @media screen and (min-width: 850px){
