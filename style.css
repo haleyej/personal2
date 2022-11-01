@@ -164,6 +164,9 @@ a.skip:focus{
 
     #sidebar{
         margin: 0 auto;
+        position: sticky; 
+        top: 10%;
+        height: 100vh; 
     }
 
     #sidebar-content{
