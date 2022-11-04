@@ -152,7 +152,7 @@ a.skip:focus{
 
 .arcgis-gallery{
     margin: 15px 0px;
-}
+    grid-template-rows: 1fr 1fr;
 
 @media screen and (min-width: 850px){
     #container{
