@@ -141,10 +141,22 @@ a.skip:focus{
 /* photogallery */
 .photo-gallery, .arcgis-gallery{
     display: grid;
-    grid-gap: 2.5px;
+    grid-gap: 5px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 15px 0px 0px 0px;
+}
+
+.photo-gallery{
+    grid-template-rows: 1fr 1fr;
+}
+
+.arcgis-gallery{
+    grid-template-rows:auto auto;
+}
+
+.arcgis-gallery > img, .photo-gallery > img{
+    border: 1px solid #d3d3d3;
 }
 
 @media screen and (min-width: 850px){
