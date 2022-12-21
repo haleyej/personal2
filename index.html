@@ -15,7 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- mobile nav -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type='image/jpg' href=”snail.ico”>
+    <link rel=s"shortcut icon" type='image/jpg' href=”snail.ico”>
     <title>Haley Johnson</title>
 </head>
 <body>
@@ -25,9 +25,10 @@
       </header>
     <main>
         <div id = "container">
+            <div id = 'top-banner'></div>
             <div id = 'sidebar'> 
                 <div id = 'sidebar-content'>
-                    <img src="IMG_6056_lorg.jpg" alt="Haley" id="landing-img">
+                    <img src="IMG_6056_lorg.jpg" alt = "Haley" id = "landing-img">
                     <h1 id = 'name'>
                         Haley Johnson
                     </h1>
@@ -36,10 +37,10 @@
                             <a href = "index.html">home</a>
                         </li>
                         <li>
-                            <a href = "reading.html">reading</a>
+                            <a href = "about.html">about</a>
                         </li>
                         <li>
-                            <a href =  "resume.pdf">resume</a>
+                            <a href = "reading.html">reading</a>
                         </li>
                         <li>
                             <a href =  "https://github.com/haleyej">github</a>
@@ -47,7 +48,7 @@
                     </ul>
                 </div>
             </div>
-            <div class = 'main-container' id = 'one'>
+            <div class = 'main-container' class = 'two'>
                 <h2>Welcome!</h2>
                 <p class = 'body-p'>Senior at the University of Michigan studying information science, statistics and digital studies</p>
                 <p class = 'body-p'>In no particular order, I am a:
@@ -69,49 +70,72 @@
                     of data science to politics and media.
                 </p>
             </div>
-            <div class = 'main-container' id ='two'>
-                <h2>Here's some of my work:</h2>
-                <h3>GitHub Repos</h3>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/haleyej/564_final_project">Database of Trails in U.S. National Parks</a>
-                            <ul>
-                                <li>Final project for SI 564, SQL & Databases</li>
-                                <li><b>Skills:</b> SQL, Database Design, Python</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href = "https://github.com/haleyej/330_final_project">Public Transit, Walkability & Happiness in 100 U.S. Cities</a>
-                            <ul>
-                                <li>
-                                    Final project for SI 330, Data Manipulation, examining the relationship 
-                                    between walkability, access to public transit, and happiness
-                                </li>
-                                <li><b>Skills Used:</b> Python, Data Visualization</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href = "https://github.com/haleyej/SI206Project">Mobility Patterns & COVID-19 Spread</a>
-                            <ul>
-                                <li>
-                                    Group project for SI 206, Data-Oriented Programming looking at 
-                                    the correlation between mobility and COVID-19 spread in Michigan 
-                                    from March 2020 to March 2021
-                                </li>
-                                <li><b>Skills used:</b> Python, SQL, Data Visualization</li>
-                            </ul>
-                        </li>
-                        <li>
-                            For more of my web design work, you can see a <a href = 'https://haleyej.github.io/personal/'>previous version</a> of my 
-                            personal site here. Here is a <a href ='https://haleyej.github.io/portfolio/'>digital portfolio</a> 
-                            that I created as a class project and showcases more complex web design.
-                            <ul>
-                                <li><b>Skills Used:</b> HTML, CSS, JavaScript</li>
-                            </ul>
-                        </li>
-                    </ul>
+            <div class = 'main-container' id = 'two'>
+                <h2>Some of my Work:</h2>
+                <h3 class = 'extra-margin'><a href = "https://github.com/haleyej/stats_315_final_proj">Detecting Climate Denial on Twitter</a></h3>
+                <img src = "projects/stats_315_proj.png" alt = 'confusion matrix of deep learning classifier' class = 'proj-img'>
+                <p>
+                    Final project for STATS 315, Statistics and Artificial Intelligence, comparing how 6 different 
+                    deep learnning model architectures perform at classifying Tweets about climate change
+                </p>
+                <p>
+                    <b>Skills Used:</b> Natural Language Processing, Machine Learning, TensorFlow, Python
+                </p>
             </div>
-            <div class = 'main-container' id = 'three'>
+            <div class = 'main-container', id = 'three'>
+                <h3><a href = "https://github.com/haleyej/SI_370_project">Analyzing the Similarity Between Genres of GoodReads</a></h3>
+                <img src = "projects/si_370_proj.png" alt = "network of cosine similarities between gennres" class = 'proj-img'>
+                <p>
+                    Final project for SI 370, Data Exploration, examining the similarities between genres on a dataset of over 70k books from GoodReads
+                </p>
+                <p>
+                    <b>Skills Used:</b> Natural Language Processing, Machine Learning, Python
+                </p>
+            </div>
+            <div class = 'main-container', id = 'four'>
+                <h3>Other Repos</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/haleyej/564_final_project">Database of Trails in U.S. National Parks</a>
+                        <ul>
+                            <li>Final project for SI 564, SQL & Databases</li>
+                            <li><b>Skills:</b> SQL, Database Design, Python</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href = "https://github.com/haleyej/330_final_project">Public Transit, Walkability & Happiness in 100 U.S. Cities</a>
+                        <ul>
+                            <li>
+                                Final project for SI 330, Data Manipulation, examining the relationship 
+                                between walkability, access to public transit, and happiness
+                            </li>
+                            <li><b>Skills Used:</b> Python, Data Visualization</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href = "https://github.com/haleyej/SI206Project">Mobility Patterns & COVID-19 Spread</a>
+                        <ul>
+                            <li>
+                                Group project for SI 206, Data-Oriented Programming looking at 
+                                the correlation between mobility and COVID-19 spread in Michigan 
+                                from March 2020 to March 2021
+                            </li>
+                            <li><b>Skills used:</b> Python, SQL, Data Visualization</li>
+                        </ul>
+                    </li>
+                    <li>
+                        For more of my web design work, you can see a <a href = 'https://haleyej.github.io/personal/'>previous version</a> of my 
+                        personal site here. Here is a <a href ='https://haleyej.github.io/portfolio/'>digital portfolio</a> 
+                        that I created as a class project and showcases more complex web design.
+                        <ul>
+                            <li><b>Skills Used:</b> HTML, CSS, JavaScript</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class = 'main-container' id = 'five'>
                 <h3>ArcGIS</h3>
                 <p class='title-line'><em>Wait, why most of these maps all of Ohio?</em> Believe it or not, one of the 
                     <a href="https://store.macmillanlearning.com/us/product/Discovering-GIS-and-ArcGIS-Pro/p/131923075X?gclid=Cj0KCQjwhY-aBhCUARIsALNIC076AHTEqMOFTlZ_JiAdJuhCo6gn9PUiosmX342kTmFJkuBJ5szxjjAaAnRREALw_wcB">
@@ -119,13 +143,14 @@
                         upset by this. 
                 </p>
                 <div class = 'arcgis-gallery'>
-                    <img src = "arcgis/haleyjohnsonlab11.png", alt = "">
-                    <img src = "arcgis/haley_johnson_lab_10_layout.png", alt = "">
-                    <img src = "arcgis/lab_15_layout.png", alt = "">
-                    <img src = "arcgis/haleyej_lab16_layout.png", alt = "">
+                    <img src = "arcgis/aa_growth.png", alt = "">
+                    <img src = "arcgis/proposed_site.png", alt = "">
+                    <img id = 's1', src = "arcgis/lab_15_layout.png", alt = "">
+                    <img id = 's2', src = 'arcgis/suitable_site.png' alt = "">
+                    <img id = 'long', src = "arcgis/haleyej_lab23_layout.png", alt = "">
                 </div>
             </div>
-            <div class = 'main-container', id = 'four'>
+            <div class = 'main-container', id = 'six'>
                 <h3>Graphic Design</h3>
                 <p class='title-line'><em>Photographs courtesy of Michigan Daily photostaff. All graphics created using Photoshop.</em></p>
                 <div class = 'photo-gallery'>
